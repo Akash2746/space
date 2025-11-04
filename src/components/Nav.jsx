@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { Moon, Sun } from 'lucide-react' // optional icons (if using lucide-react)
 
 const links = [
-  { to: '/', label: 'Home' },
+  { to: '/space', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/projects', label: 'Projects' },
   { to: '/resume', label: 'Resume' },
@@ -18,7 +18,7 @@ export default function Nav({ darkMode, setDarkMode }) {
       <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
         {/* Site Title */}
-          <Link to="/" className="font-semibold text-lg">
+          <Link to="/space" className="font-semibold text-lg">
             Akashdeep Guruswamy
           </Link>
         </div>

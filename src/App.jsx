@@ -25,7 +25,7 @@ export default function App() {
       <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
       <main className="max-w-4xl mx-auto px-6 py-12">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/space" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<ResumePage />} />
